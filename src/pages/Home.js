@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <Fragment>
       <Search />
-
       <div className="row mt-4">
         {loading ? (
           <p className="text-center"> Загрузка...</p>
